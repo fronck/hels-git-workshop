@@ -1,4 +1,4 @@
-# Task Assignments For Team 1
+# Task Assignments For Team 3
 
   - [ ] Add the *automation-shared* submodule into *helsingor* folder.  Use release tag `2024.09.23.01`
     - See [automation-shared README](https://github.com/Helsingor-Kommune-Automatisering/automation_shared/blob/ff/changelog-auto-tag/README.md) for documentation (note the branch in the link!)
@@ -16,9 +16,9 @@
   - [ ] In the `read_input` method, open and read the two input .csv files.  Use the `configparser.ConfigParser` object from the .ini helper to find filenames.  Use Python's [CSV parser](https://docs.python.org/3/library/csv.html) to read the files
 
   - [ ] In the `process_input` method, add the following functionality:
-    - [ ] Remove employees under the age of 25
+    - [ ] Remove duplicate entries (employees IDs present in both lists)
     - [ ] Merge the two lists
-    - [ ] Sort the merged list by age, ascending
+    - [ ] Sort the merged list by last ID, ascending
 
   - [ ] In the `write_output` method, add the following functionality:
     - [ ] Produce an output .csv file that contains the merged and sorted list
