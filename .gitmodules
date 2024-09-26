@@ -1,0 +1,3 @@
+[submodule "helsingor"]
+	path = helsingor
+	url = https://github.com/Helsingor-Kommune-Automatisering/automation_shared.git
