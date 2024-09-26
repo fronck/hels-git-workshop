@@ -18,7 +18,7 @@
   - [ ] In the `process_input` method, add the following functionality:
     - [ ] Remove duplicate entries (employees IDs present in both lists)
     - [ ] Merge the two lists
-    - [ ] Sort the merged list by ID, ascending
+    - [ ] Make sure the list is sorted
 
   - [ ] In the `write_output` method, add the following functionality:
     - [ ] Produce an output .csv file that contains the merged and sorted list
